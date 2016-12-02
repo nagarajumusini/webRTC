@@ -5,8 +5,8 @@ $(function(){
   var messages_template = Handlebars.compile($('#messages-template').html());
 
   var peer = new Peer({
-    host: '54.81.141.186',
-    port: 3001,
+    host: 'localhost',
+    port: 3000,
     path: '/peerjs',
     debug: 3,
     config: {'iceServers': [
